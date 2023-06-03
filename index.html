@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>DOM handson</title>
+
+</head>
+
+<body>
+    <h1>DOM HANDSON</h1>
+    <h5>
+        Question 1 Write the code to access element which is having id as "text"
+    </h5>
+    <p>  let first = document.getElementById("text");</p>
+       <p> console.log(first);</p>
+    <div id="text">Hello</div>
+    <hr>
+
+    <div>
+        <h5>
+            Question 2 Write the code to access element which is having tag as "h1"
+        </h5>
+        <p>  let second = document.getElementById("h1");</p>
+       <p> console.log(second);</p>
+        <div class="h1">Welcome to Full Stack Course</div>
+        <hr>
+
+        <h5> Question 3 Write the code to access element which is having class as "box"</h5>
+        <p>  let third = document.getElementById("box");</p>
+       <p> console.log(third);</p>
+        <div class="box"> This is a box class</div>
+        <hr>
+        <h5> 
+            Question 4 Change the heading from ""Hello"" to ""Hello World"" using DOM functions"
+        </h5>
+        <h2 class="Text">Hello</h2>
+        <hr>
+        <h5> Question 5 Create an HTML page having content as Hello world and a button named Replace Text. When user
+            will click on this button page content should be changed to "Welcome to Elevation academy"
+        </h5>
+        <div class="change"> Hello world</div>
+
+        <button onclick="trans()">Replaceme</button>
+        <br>
+        <hr>
+        <h5>
+            Question 6 Add one style attribute and give text color as red and id attribute and give the id value as
+            ""heading"" in the above given h1 tag using DOM functions"</h5>
+        <div id="heading">HELLO</div>
+        <hr>
+        <h5>
+            Question 7 Create three cards on HTML page and arrange them using flex property in row or horizontal direction and also create button at the bottom named "Change Flex direction". 
+            When user clicks on this button, the cards arrangement should be changed to vertical direction.	
+        </h5>
+        <div class="parent">
+            <div class="child"></div>
+            <div class="child"></div>
+            <div class="child"></div>
+        </div>
+        <button onclick="changeDirection()" class="Direction">ChangeDirection</button>
+        <br>
+        <hr>
+        <h5>
+            Question 8 What's the difference between window vs document?
+
+        </h5>
+        <h6>
+            <table  border="2">
+                <tr>
+                    <td>Document</td>
+                    <td>It represents any HTML document or web page that is loaded in the browser</td>
+                    <td>It is loaded inside the window.</td>
+                    <td>It is the object of window property</td>
+                    <td>The document is part of BOM (browser object model) and dom (Document object model)</td>
+                    <td>syntax: document.propertyname</td>
+                </tr>
+                <tr>
+                    <td>Object</td>
+                    <td>It represents a browser window or frame that displays the contents of the webpage.</td>
+                    <td>It is the very first object that is loaded in the browser.</td>
+                    <td>It is the object of the browser</td>
+                    <td>The window is part of BOM, not DOM</td>
+                    <td>syntax:window.propertyname</td>
+                </tr>
+               </table>
+        </h6>
+        <br>
+        <hr>
+        <h5>
+            Question 9 Write code to implement timer clock using JS -- display HH:MM:SS -- the time should keep updating every second
+  <h3>startclock</h3>
+  <h3></h3>
+        </h5>
+        <hr>
+        <h5>
+            <a href="./index1.html">Game</a>
+        </h5>
+        <script src="/script.js"></script>
+</body>
+
+</html>

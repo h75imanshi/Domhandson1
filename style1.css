@@ -1,0 +1,109 @@
+body
+{
+    background-color: rgb(252, 72, 168);
+}
+.guess
+{
+    height: 80px;
+    width: 170px;
+    position:absolute;
+    left: 300px;
+    bottom:200px;
+    text-align: center;
+    font-size: 26px;
+}
+.btn-check
+{
+    position:absolute;
+    left: 330px;
+    bottom:140px;
+    border-radius: 15px;
+    height: 50px;
+    width: 120px;
+    background:linear-gradient(to left, rgb(253, 125, 147) ,rgb(252, 105, 244),rgb(117, 250, 117));
+    
+}
+.card
+{
+ width: 150px;
+ height: 100px;
+ text-align: center;
+ font-size: 22px;
+ font-weight: bold;
+ background-color: bisque;
+}
+.card1
+{
+ text-align: right;
+ font-size: 30px;
+ font-weight: bolder;
+ color: white;
+ position: absolute;
+ top: 40px;
+ right: 50px;
+
+}
+.card2
+{
+ text-align: center;
+ font-size: 32px;
+ font-weight: bold;
+ color: white;
+ position: absolute;
+ left: 500px;
+ bottom: 480px;
+
+
+}
+.card3
+{
+ width: 1300px;
+ height: 20px;
+ position: absolute;
+ bottom: 400px;
+ background-color: white;
+
+
+}
+.card4
+{
+ width: 150px;
+ height: 100px;
+ position: absolute;
+ bottom: 365px;
+ left: 570px;
+ background-color: rgb(171, 238, 95);
+ text-align: center;
+ font-size: 48px;
+ margin-top: 20px;
+
+}
+
+.message
+{
+    position: absolute;
+    right: 300px;
+    bottom: 230px;
+    font-size:32px;
+    font-style: italic;
+
+    
+}
+.label-score
+{
+    position: absolute;
+    right: 300px;
+    bottom: 180px;
+    font-size:28px;
+    font-style: italic;
+    
+}
+.label-highscore
+{
+    position: absolute;
+    right: 300px;
+    bottom: 130px;
+    font-size:28px;
+    font-style: italic;
+    
+}

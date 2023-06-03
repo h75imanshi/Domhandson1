@@ -1,0 +1,94 @@
+body
+{  
+    background-color: bisque;
+    font-size: 40px;
+    font-style: italic;
+    background: repeating-linear-gradient(to right, #5af755, #fa3b45, #bf5eff, #f15f99 , blue, red);
+
+}
+h1{
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(240, 6, 6);
+}
+h5{
+    font-size: 20px;
+    font-weight: bold;
+}
+hr
+{ 
+    color: rgb(53, 99, 250);
+}
+#button
+{
+    height: 50px;
+    width: 130px;
+    text-align: center;
+    position: absolute;
+    border-radius: 15px;
+    left: 500px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(250, 106, 11);
+}
+#text
+{
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(20, 135, 243);
+}
+.box
+{
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+.changeText
+{
+    font-size: 20px;
+}
+.change
+{
+    font-size: 22px;
+}
+p
+{
+    font-size: 20px;
+}
+.parent
+{
+    display: flex;
+    gap: 15px;
+    position: relative;
+    left: 200px;
+}
+.child
+{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: #fa3b45;
+}
+.Direction
+{
+    height: 50px;
+    width: 140px;
+    border-radius: 15px;
+    color: rgb(250, 86, 10);
+    position: absolute;
+    left: 480px;
+    margin-top: 10px;
+    background:linear-gradient(to left, rgb(253, 125, 147) ,rgb(161, 240, 109) );
+}
+th
+{
+    font-size: 22px;
+    font-weight: bold;
+}
+td
+{
+    font-size: 18px;
+   
+}
