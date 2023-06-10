@@ -23,7 +23,7 @@ body
     background:linear-gradient(to left, rgb(253, 125, 147) ,rgb(252, 105, 244),rgb(117, 250, 117));
     
 }
-.card
+.btn
 {
  width: 150px;
  height: 100px;
